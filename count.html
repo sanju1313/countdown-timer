@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body{
+			background-image: url(snow.jpg);
+			background-size: 100vw;
+			font-family: arial;
+			margin: 0px;
+			padding: 0px;
+		}
+		.text{
+			font-size: 100px;
+			font-weight: bold;
+		}
+		.flexbox{
+			display: flex;
+			margin-top: 150px;
+			width: 900px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.count{
+			text-align: center;
+			width: 400px;
+		}
+		.count span{
+			font-size: 20px;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="flexbox">
+		<div class="count days">
+			<p class="text" id="days">0</p>
+			<span>Days</span>
+		</div>
+		<div class="count hours">
+			<p class="text" id="hours">0</p>
+			<span>Hours</span>
+		</div>
+		<div class="count minutes">
+			<p class="text" id="minutes">0</p>
+			<span>Minutes</span>
+		</div>
+		<div class="count seconds">
+			<p class="text" id="seconds">0</p>
+			<span>Seconds</span>
+		</div>
+	</div>
+	<script src="count.js"></script>
+
+
+</body>
+</html>
+
+
